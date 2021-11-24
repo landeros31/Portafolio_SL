@@ -6,8 +6,8 @@ import { Footer } from './Components/Views/Footer/Footer';
 import Principal from './Components/Views/Principal/Principal';
 import { Projects } from './Components/Views/Projects/Projects';
 import { Skills } from './Components/Views/Skills/Skills';
-/* import Pr from './prueba';
- */
+ /* import Pr from './prueba'; */
+ 
 
 function App() {
   
