@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+.containert{
+    margin-top: 50px;
+    width: 300px;
+    height: 430px;
+    background: #FFFFFF;
+    box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.tech{
+    margin-top: 10px;
+    font-size: 18px;
+    width: 100%;
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: normal;
+
+    
+}
+.titleprojects{
+    margin-top: 20px;
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+}
+.containerImgProjects{
+    background-color: rgba(0, 0, 0, 0.25);
+    height: 170px;
+    width: 100%;
+}
+.img{
+    width: 100%;
+    height: 100%;
+}
+.descriptionProjects{
+ width: 95%;
+ font-size: 15px;
+ color: black;
+}
+.containerButtonP{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 30px;
+}
+
+.buttonv{
+    display: flex;
+    background: #0065C8;
+    border: 1px solid #0065C8;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+   justify-content: center;
+   align-items: center;
+    line-height: 25px;
+    color: white;
+    cursor: pointer;
+    font-size: 17px;
+
+  
+}
+.buttong{
+    display: flex;
+    background: transparent;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+   justify-content: center;
+   align-items: center;
+    line-height: 25px;
+    color: #0065C8;
+    cursor: pointer;
+    font-size: 17px;
+
+  
+}
+.buttonv:hover{
+    background-color: transparent;
+    color: #0065C8;
+}
+.buttong:hover{
+    border: 1px solid #0065C8;
+}
+.an{
+    text-decoration: none;
+}
+

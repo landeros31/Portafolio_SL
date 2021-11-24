@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap');
+
+
+.principal{
+    background-image: url("https://i.pinimg.com/originals/d6/0b/fb/d60bfb79b23c28a2b50270e2bf623ca7.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 87.4vh;
+    display: flex;
+    justify-content: center;
+}
+.containerphoto{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    
+}
+.an{
+    height: auto;
+}
+.containertext{
+display: flex;
+text-align: center;
+flex-direction: column;
+align-items: center;
+width: 55%;
+
+}
+.professional{
+    margin-top: 150px;
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    width: 100%;
+    color: white;
+}
+p{
+    margin-top: 20px;
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    width: 75%;
+    color: white;
+    margin-bottom: 20px;
+    
+}
+
+.containerbuton{
+    margin-top: 20px;
+    width: 80%;
+    height: 45px;
+    display: flex;
+    justify-content: space-around;
+}
+.button1, .button2{
+width: 220px;
+height: 45px;
+font-size: 20px;
+color: white;
+cursor: pointer;
+
+}
+.button1{
+    background: #0065C8;
+border: 2px solid #0065C8;
+box-sizing: border-box;
+border-radius: 30px;
+margin-right: 7%;
+}
+
+.button1:hover{
+border: 2px solid #0065C8;
+color: #0065C8;
+font-weight: bold;
+
+background-color: transparent;
+
+}
+
+.button2:hover{
+    border: 2px solid #0065C8;
+    color: white;
+    font-weight: bold;
+    background-color: transparent;
+    
+}
+
+.button2{
+    background: black;
+border: 2px solid #FFFFFF;
+box-sizing: border-box;
+font-weight: bold;
+
+border-radius: 30px;
+
+}
+
+
+.photo{
+    margin-top: 120px;
+    width: 70%;
+    height: 50%;
+}
+.nameb{
+    display: none;
+}
+@media (max-width: 810px) {
+    .principal {
+        display: block;
+        height: auto;
+    }
+    .containerphoto{
+        width: 100%;
+        
+    }
+    .photo{
+        margin-top: 40px;
+        width: 30%;
+        height: 30%;
+    }
+    .containertext{
+    width: 100%;
+    
+    }
+    .professional{
+        margin-top: 50px;
+        font-family: 'Bebas Neue';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 35px;
+        width: 100%;
+        color: white;
+    }
+    .containerbuton{
+        margin-bottom: 50px;
+        
+    }
+}
+@media (max-width: 521px) {
+    .nameb{
+        display: block;
+        color: white;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .names{
+        width: 100%;
+        margin-left: 0%;
+        margin-top: 20px;
+    }
+    .photo{
+        margin-top: 40px;
+        width: 35%;
+        height: 35%;
+    }
+    .containerbuton{
+        margin-top: 0px;
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .button1{
+    background: #0065C8;
+    border: 2px solid #0065C8;
+    box-sizing: border-box;
+    border-radius: 30px;
+    margin-right: 0%;
+    margin-bottom: 17px;
+    margin-top: 10px;
+
+    }
+    .button1, .button2{
+        height: 40px;
+        
+        }
+
+
+}

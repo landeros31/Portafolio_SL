@@ -1,0 +1,42 @@
+.projects{
+    
+    display: grid;
+    grid-template-columns: repeat(auto-fill,300px);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    gap: 60px;
+
+    
+}
+.containerVP{
+    margin-top: 320px;
+}
+
+.titleProject{
+    margin-top: 80px;
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 37px;
+    color: #0065c8;
+    padding-left: 130px;
+    
+}
+
+@media (max-width: 630px) {
+
+    .containerVP{
+        margin-top: 250px;
+    }
+       
+    }
+
+        @media (max-width: 407px) {
+
+        .containerVP{
+            margin-top: 200px;
+        }
+           
+        }

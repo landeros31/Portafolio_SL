@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+.Header{
+    height: 12.6vh;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.name{
+    line-height: 12.6vh;
+    width: 55%;
+   
+}
+h1{
+    margin-left: 13%;
+    font-family: 'Bebas Neue';
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    
+}
+.list{
+    width: 45%;
+}
+.orderlist{
+    display: flex;
+    line-height: 12.6vh;
+    justify-content: space-around;
+}
+li{
+    list-style: none;
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    cursor: pointer;
+}
+li:hover {
+    color: #0065C8;
+}
+
+
+.icon{
+    font-size: 30px;
+}
+.an{
+    color: white;
+    text-decoration: none;
+}
+@media (max-width: 721px) {
+   .an{
+       display: none;
+   }
+}
+@media (max-width: 521px) {
+    
+.name{
+    display: none;
+}
+.list{
+    width: 100%;
+    
+}
+
+
+ }
